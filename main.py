@@ -2,6 +2,9 @@ def fibo(N):
 
     a, b = 0, 1
     while N > 0:
+        yield a
+        a, b = b, a + b
+        N -= 1
 
 def main():
     N = 10
