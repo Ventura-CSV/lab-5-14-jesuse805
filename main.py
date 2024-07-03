@@ -6,7 +6,7 @@ def fibo(N):
         x0, x1 = x1, x0 + x1
 
 def main():
-    N = 16
+    N = 10
     gen = fibo(N)
     # for v in gen:
     #     print(v, end=' ')
