@@ -1,5 +1,4 @@
 def fibo(N):
-
     x0, x1 = 0, 1
     while N > 0:
         yield x1
