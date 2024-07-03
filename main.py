@@ -1,9 +1,11 @@
 def fibo(N):
 
     a, b = 0, 1
-    for _ in range(N):
+    count = 0
+    while count < N:
         yield a
         a, b = b, a + b
+        count += 1
 
 def main():
     N = 16
