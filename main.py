@@ -2,7 +2,7 @@ def fibo(N):
 
     x0, x1 = 0, 1
     while N > 0:
-        yield x0
+        yield x1
         x0, x1 = x1, x0 + x1
         N -= 1
 
