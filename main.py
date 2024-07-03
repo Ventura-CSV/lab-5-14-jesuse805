@@ -1,12 +1,13 @@
 def fibo(N):
 
     x0, x1 = 0, 1
-    for _ in range(N):
+    while N > 0:
         yield x0
         x0, x1 = x1, x0 + x1
+        N -= 1
 
 def main():
-    N = 10
+    N = 16
     gen = fibo(N)
     # for v in gen:
     #     print(v, end=' ')
