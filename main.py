@@ -1,9 +1,9 @@
 def fibo(N):
 
-    a, b = 0, 1
+    x0, x1 = 0, 1
     while N > 0:
-        yield a
-        a, b = b, a + b
+        yield x0
+        x0, x1 = x1, x0 + x1
         N -= 1
 
 def main():
