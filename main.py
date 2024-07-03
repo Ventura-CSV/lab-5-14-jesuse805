@@ -1,7 +1,7 @@
 def fibo(N):
 
     a, b = 0, 1
-    while
+    while N > 0:
 
 def main():
     N = 10
