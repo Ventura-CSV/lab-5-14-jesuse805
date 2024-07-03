@@ -5,7 +5,7 @@ def fibo(N):
     while count < N:
         yield x0
         x0, x1 = x1, x0 + x1
-        Count += 1
+        count += 1
 
 def main():
     N = 16
