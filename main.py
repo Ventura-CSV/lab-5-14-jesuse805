@@ -7,7 +7,7 @@ def fibo(N):
         N -= 1
 
 def main():
-    N = 10
+    N = 16
     gen = fibo(N)
     # for v in gen:
     #     print(v, end=' ')
