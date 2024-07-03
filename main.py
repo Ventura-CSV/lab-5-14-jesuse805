@@ -1,13 +1,10 @@
 def fibo(N):
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
 
+    a, b = 0, 1
+    while
 
 def main():
-    N = 16
+    N = 10
     gen = fibo(N)
     # for v in gen:
     #     print(v, end=' ')
